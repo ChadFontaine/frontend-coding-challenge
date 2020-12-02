@@ -8,8 +8,9 @@ First of all I'd like to say I really enjoyed doing the assignment. This was my 
 
 ## Small Notes of Interest
 - I changed the element type of the CheckButton component to use a checkbox as I figured that was maybe more semantically accurate and nice for accessibility. However this meant I had to make some minor styling changes to ensure focus worked on the label. It also made testing a bit trickier in the end.
-- For formatting the DOB in the success page I used the native Intl.DateTimeFormat with it's default locale - the design called for the British standard, but I figured it'd be nicer if it reflected the users locale.
-
+- For formatting the DOB in the success page I used the native Intl.DateTimeFormat with it's default locale
+the design called for the British standard, but I figured it'd be nicer if it reflected the users locale.
+- I opted to use Vuex for state management as it seemed the project was leaning towards this and I found the dev tools browser extension to be excellent. I'm not sure of the best practices, but I felt a single parent component could also have been used to pass state and data down to the components.
 
 ## Things I'd like to Improve (if I had more time)
  - I came across the handy map getters vuex functionality quite late and unfortunately didn't have time to refactor to add it, I'd probably use that going forward to cut down on some boilerplate.
