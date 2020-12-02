@@ -31,8 +31,6 @@ export default {
 }
 </script>
 
-// TODO: fix disabled styling
-
 <template>
   <div>
     <input

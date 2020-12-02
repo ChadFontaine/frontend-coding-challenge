@@ -66,11 +66,9 @@ export default {
         this.$store.getters['survey/goals'].length > 0 &&
         this.$store.getters['survey/goals'].length <= 4
       )
-      // TODO TIDY THIS UP
     },
     maxGoalsSelected () {
       return this.$store.getters['survey/goals'].length === 4
-      // TODO CREATE CONSTANTS FOR MIN AND MAX
     }
   }
 }

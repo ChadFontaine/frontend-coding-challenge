@@ -5,7 +5,6 @@ jest.mock('axios')
 
 describe('actions', () => {
   describe('sendToApi', () => {
-    // Write any useful test based on the sendToApi action logic here
     it('survey state should be sent to the api and submission status updated appropriately', async () => {
       const state = {
         name: 'john doe',
